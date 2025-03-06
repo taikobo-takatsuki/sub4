@@ -10,7 +10,7 @@ DeepSeek AIを使用して、外国語を日本語に翻訳し、その発音を
 - DeepSeek AIによる高品質な日本語翻訳
 - 翻訳された日本語のカタカナ発音表示
 
-## 開発環境のインストール方法
+## インストール方法
 
 ```bash
 # リポジトリをクローン
@@ -31,7 +31,7 @@ DEEPSEEK_API_KEY=your_api_key_here
 
 ※DeepSeek APIキーは[DeepSeek AI公式サイト](https://platform.deepseek.com/)から取得できます。
 
-## 開発環境での実行方法
+## 使用方法
 
 ```bash
 # アプリケーションを起動
