@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeepSeek 翻訳アプリ</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>DeepSeek 翻訳アプリ</h1>
+    <div class="description">
+      <p><i class="fas fa-language"></i> 外国語を入力して、日本語に翻訳し、その発音をカタカナで表示します。</p>
+    </div>
+
+    <div class="translation-form">
+      <textarea id="sourceText" placeholder="翻訳したいテキストを入力してください..."></textarea>
+      <button id="translateBtn">
+        <i class="fas fa-exchange-alt"></i> 翻訳する
+      </button>
+      <div class="loading" id="loading"><i class="fas fa-spinner fa-spin"></i> 翻訳中...</div>
+    </div>
+
+    <div class="result-container">
+      <div class="result-box">
+        <h3><i class="fas fa-comment-dots"></i> 翻訳結果</h3>
+        <div id="translationResult"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Powered by DeepSeek AI</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
